@@ -1,5 +1,2 @@
 #!/bin/bash
 gcc -c $CFILE
-^C
-clear
-root@ad3e9d70bb9c:/alx-low_level_programming/0x00-hello_world# chmod u+x 1-compiler
