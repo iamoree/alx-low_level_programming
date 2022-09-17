@@ -1,11 +1,11 @@
-#inlude <stdio.h>
+#include <stdio.h>
 #include "main.h"
 /**
 *print_diagonal - prints a diagonal
 *@n: parameter
 *Return: returns nothing
 */
-void print_diagonal(int n) 
+void print_diagonal(int n)
 {
 int len, space;
 if (n > 0)
