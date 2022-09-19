@@ -5,7 +5,7 @@
 *
 *Return: returns 0
 */
-int main(void) 
+int main(void)
 {
 long number = 612852475143;
 int inc;
