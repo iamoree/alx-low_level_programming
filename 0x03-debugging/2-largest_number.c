@@ -19,8 +19,6 @@ largest = b;
 }
 else
 {
-else
-{
 largest = c;
 }
 return (largest);
