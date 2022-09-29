@@ -20,7 +20,7 @@ return (flag);
 *
 * Return: void
 */
-void check(char *s, int start, int end, int *flag)
+void check(char *s, int start, int end, int *flag) 
 {
 if (start <= end)
 {
@@ -41,10 +41,9 @@ int _strlen_recursion(char *s)
 {
 int sum = 0;
 if (*s != '\0')
-{   
+{
 sum++;
 sum += _strlen_recursion(s + 1);
 }
 return (sum);
 }
-
