@@ -7,7 +7,7 @@
 *@argv: array of arguments
 *Return: returns 1 if there is an error; else returns 0
 */
-int main(int argc, char *argv[]) 
+int main(int argc, char *argv[])
 {
 int cents, coins = 0;
 if (argc != 2)
@@ -31,12 +31,12 @@ continue;
 }
 if ((cents - 5) >= 0)
 {
-cents -= 5;  
+cents -= 5;
 continue;
 }
 if ((cents - 2) >= 0)
 {
-cents -= 2;  
+cents -= 2;
 continue;
 }
 cents--;
@@ -44,4 +44,3 @@ cents--;
 printf("%d\n", coins);
 return (0);
 }
-
